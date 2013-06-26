@@ -89,7 +89,7 @@ class Student(object):
 
     def __init__(self, name, scores, school_prefs):
         self.name = name  # in the form J[integer]
-        self.scores = scores  # length-3 list of H/E/P scores
+        self.scores = scores  # length-3 list of ratings
         self.school_prefs = school_prefs  # school (object)s in order of preference, highest to lowest
         self.num_prefs = len(school_prefs)  # number of schools specified in preference listing
         self.ischool = None  # array index of school student is currently assigned to; initialize to None
